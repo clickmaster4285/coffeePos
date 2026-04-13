@@ -1,19 +1,51 @@
 import { createFileRoute } from "@tanstack/react-router";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import PainPoints from "@/components/PainPoints";
+import Solutions from "@/components/Solutions";
+import Features from "@/components/Features";
+import HowItWorks from "@/components/HowItWorks";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import CaseStudy from "@/components/CaseStudy";
+import Testimonials from "@/components/Testimonials";
+import AboutUs from "@/components/AboutUs";
+import Services from "@/components/Services";
+import Blog from "@/components/Blog";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
+import StickyDemo from "@/components/StickyDemo";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "CaféPOS — Smarter POS for Modern Cafés & Coffee Shops" },
+      { name: "description", content: "Transform your café with intelligent POS technology. Faster billing, smoother operations, and better customer experience for coffee shops worldwide." },
+      { property: "og:title", content: "CaféPOS — Smarter POS for Modern Cafés & Coffee Shops" },
+      { property: "og:description", content: "Transform your café with intelligent POS technology. Faster billing, smoother operations, better customer experience." },
+      { property: "og:type", content: "website" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="overflow-x-hidden">
+      <Navbar />
+      <HeroSection />
+      <PainPoints />
+      <Solutions />
+      <Features />
+      <HowItWorks />
+      <WhyChooseUs />
+      <CaseStudy />
+      <Testimonials />
+      <AboutUs />
+      <Services />
+      <Blog />
+      <ContactSection />
+      <Footer />
+      <StickyDemo />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
