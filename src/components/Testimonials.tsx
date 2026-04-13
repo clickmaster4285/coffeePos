@@ -13,7 +13,7 @@ const testimonials = [
     name: "James Rodriguez",
     role: "Owner, The Daily Grind",
     image: testimonial1,
-    quote: "CaféPOS transformed our morning rush. We now serve 40% more customers with zero order mistakes. The barista display is a game-changer.",
+    quote: "Caféra transformed our morning rush. We now serve 40% more customers with zero order mistakes. The barista display is a game-changer.",
     rating: 5,
   },
   {
@@ -34,7 +34,7 @@ const testimonials = [
     name: "Anna Kowalski",
     role: "Founder, Cloud Cup Café",
     image: testimonial2,
-    quote: "We tried 4 different POS systems before CaféPOS. Nothing else understands café workflows the way this does. Our team adopted it instantly.",
+    quote: "We tried 4 different POS systems before Caféra. Nothing else understands café workflows the way this does. Our team adopted it instantly.",
     rating: 5,
   },
 ];

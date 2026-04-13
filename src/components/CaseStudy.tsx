@@ -71,7 +71,7 @@ export default function CaseStudy() {
         <div className="text-center mb-16">
           <span className="text-caramel text-sm font-semibold tracking-widest uppercase">Real Results</span>
           <h2 className="text-3xl md:text-5xl font-bold mt-3 text-gradient-warm">Case Study: Bean & Brew</h2>
-          <p className="text-cream/60 mt-4 max-w-xl mx-auto">See how a 3-location café chain transformed their operations with CaféPOS.</p>
+          <p className="text-cream/60 mt-4 max-w-xl mx-auto">See how a 3-location café chain transformed their operations with Caféra.</p>
         </div>
 
         <div className="flex flex-col md:flex-row gap-10 items-center">
@@ -92,7 +92,7 @@ export default function CaseStudy() {
             ))}
             <div className="case-animate glass-card rounded-xl p-4 mt-6 opacity-0">
               <p className="text-cream/70 text-sm italic">
-                "Within 3 months of switching to CaféPOS, we saw a dramatic improvement in order accuracy and speed. Our morning rush went from chaos to clockwork."
+                "Within 3 months of switching to Caféra, we saw a dramatic improvement in order accuracy and speed. Our morning rush went from chaos to clockwork."
               </p>
               <p className="text-caramel text-sm font-semibold mt-2">— Sarah Mitchell, Bean & Brew Owner</p>
             </div>

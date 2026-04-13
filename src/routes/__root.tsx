@@ -31,9 +31,9 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CaféPOS — Smarter POS for Cafés" },
+      { title: "Caféra — Smarter POS for Cafés" },
       { name: "description", content: "Smarter POS for modern cafés and coffee shops. Faster billing, smoother operations, better customer experience." },
-      { name: "author", content: "CaféPOS" },
+      { name: "author", content: "Caféra" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

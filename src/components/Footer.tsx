@@ -6,7 +6,7 @@ export default function Footer() {
           <div className="space-y-3">
             <div className="flex items-center gap-2">
               <span className="text-2xl">☕</span>
-              <span className="text-xl font-bold text-gradient-warm">CaféPOS</span>
+              <span className="text-xl font-bold text-gradient-warm">Caféra</span>
             </div>
             <p className="text-cream/50 text-sm">Smarter POS for modern cafés and coffee shops worldwide.</p>
           </div>
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className="caramel-divider mb-6" />
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-cream/30 text-xs">
-          <span>© 2026 CaféPOS. All rights reserved.</span>
+          <span>© 2026 Caféra. All rights reserved.</span>
           <div className="flex gap-6">
             <a href="#" className="hover:text-caramel transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-caramel transition-colors">Terms of Service</a>

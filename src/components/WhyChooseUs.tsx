@@ -76,7 +76,7 @@ export default function WhyChooseUs() {
 
       <div className="relative z-10 max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="text-caramel text-sm font-semibold tracking-widest uppercase">Why CaféPOS</span>
+          <span className="text-caramel text-sm font-semibold tracking-widest uppercase">Why Caféra</span>
           <h2 className="text-3xl md:text-5xl font-bold mt-3 text-gradient-warm">Trusted by Café Owners</h2>
         </div>
 

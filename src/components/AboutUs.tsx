@@ -32,28 +32,33 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="flex-1 about-animate opacity-0">
             <div className="relative rounded-2xl overflow-hidden glow-caramel">
-              <img src={aboutTeam} alt="CaféPOS team" className="w-full h-72 md:h-96 object-cover" loading="lazy" width={1200} height={800} />
+              <img src={aboutTeam} alt="Caféra team" className="w-full h-72 md:h-96 object-cover" loading="lazy" width={1200} height={800} />
               <div className="absolute inset-0 bg-gradient-to-t from-espresso/50 to-transparent" />
             </div>
           </div>
           <div className="flex-1 space-y-6">
-            <span className="about-animate text-caramel text-sm font-semibold tracking-widest uppercase opacity-0">About CaféPOS</span>
+            <span className="about-animate text-caramel text-sm font-semibold tracking-widest uppercase opacity-0">About Caféra</span>
             <h2 className="about-animate text-3xl md:text-4xl font-bold text-gradient-warm opacity-0">
-              Born from a Love of Coffee & Technology
+             We Build Technology That <span className="text-primary">Feeds the World</span>
             </h2>
-            <p className="about-animate text-cream/60 text-lg leading-relaxed opacity-0">
-              We started CaféPOS because we saw café owners struggling with generic POS systems that weren't built for their unique workflow. As coffee lovers and technologists, we knew there had to be a better way.
-            </p>
-            <p className="about-animate text-cream/60 text-lg leading-relaxed opacity-0">
-              Today, we power hundreds of cafés worldwide with a system that understands the rhythm of a coffee shop—from the morning rush to the afternoon lull.
-            </p>
+          <p className="about-animate text-cream/60 text-lg leading-relaxed opacity-0">
+  Clickmasters began as a small team of developers with a focus on solving real business challenges through practical software. Over time, we’ve delivered web, mobile, and cloud solutions for both startups and established companies across multiple industries.
+</p>
+
+
+
+<p className="about-animate text-cream/60 text-lg leading-relaxed opacity-0">
+  Today, we help businesses streamline operations and improve efficiency through modern, scalable digital systems.   Based in Pakistan, we build custom software, enterprise platforms, and cloud integrations designed for long-term growth.
+</p>
+
+
             <div className="about-animate flex gap-8 opacity-0">
               <div>
-                <div className="text-3xl font-bold text-caramel">5+</div>
+                <div className="text-3xl font-bold text-caramel">8+</div>
                 <div className="text-cream/50 text-sm">Years Experience</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-caramel">20+</div>
+                <div className="text-3xl font-bold text-caramel">15+</div>
                 <div className="text-cream/50 text-sm">Countries</div>
               </div>
               <div>

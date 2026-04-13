@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#" className="flex items-center gap-2">
             <span className="text-2xl">☕</span>
-            <span className="text-xl font-bold text-gradient-warm">CaféPOS</span>
+            <span className="text-xl font-bold text-gradient-warm">Caféra</span>
           </a>
 
           <div className="hidden lg:flex items-center gap-6">
