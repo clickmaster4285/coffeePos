@@ -18,9 +18,9 @@ import StickyDemo from "@/components/StickyDemo";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Caféra — Smarter POS for Modern Cafés & Coffee Shops" },
+      { title: "Caféra" },
       { name: "description", content: "Transform your café with intelligent POS technology. Faster billing, smoother operations, and better customer experience for coffee shops worldwide." },
-      { property: "og:title", content: "Caféra — Smarter POS for Modern Cafés & Coffee Shops" },
+      { property: "og:title", content: "Caféra" },
       { property: "og:description", content: "Transform your café with intelligent POS technology. Faster billing, smoother operations, better customer experience." },
       { property: "og:type", content: "website" },
     ],

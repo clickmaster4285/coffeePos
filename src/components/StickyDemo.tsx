@@ -5,7 +5,7 @@ export default function StickyDemo() {
         href="#contact"
         className="btn-caramel flex items-center gap-2 text-sm px-6 py-3 rounded-full shadow-2xl animate-glow-pulse"
       >
-        <span>☕</span>
+     
         <span>Get Free Demo</span>
       </a>
     </div>

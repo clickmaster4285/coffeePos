@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import painQueue from "@/assets/pain-queue.jpg";
 import painConfusion from "@/assets/pain-confusion.jpg";
+import painConfusion3 from "@/assets/barista overload.webp";
+import painConfusion4 from "@/assets/missed orders.webp";
 
 const painPoints = [
   {
@@ -18,13 +20,13 @@ const painPoints = [
   {
     title: "Slow Billing & Barista Overload",
     description: "Manual billing slows everything down. Your baristas juggle orders, payments, and preparation—all at once.",
-    image: painQueue,
+    image: painConfusion3,
     icon: "🐌",
   },
   {
     title: "Missed Orders & Revenue Leaks",
     description: "Without real-time tracking, orders slip through the cracks. You lose sales you never even knew about.",
-    image: painConfusion,
+    image: painConfusion4,
     icon: "💸",
   },
 ];

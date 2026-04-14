@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import featureAnalytics from "@/assets/feature-analytics.jpg";
+import featureAnalytics from "@/assets/analytical dashboard.webp";
 
 const metrics = [
   { label: "Faster Order Processing", value: 65, suffix: "%" },
